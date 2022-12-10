@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name":"Discussion Popup",
+    "description":"Enables popup notification for any new Discussion raised in chrome",
+    "version":"1.0",
+    "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+       "https://course.masaischool.com/*"
+      ]
+    }
+  ]
+   
+}
