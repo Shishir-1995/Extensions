@@ -1,5 +1,3 @@
-console.log("Is it working ?");
-
 let checkTime = false;
 function checkNotification() {
 	const newNotificationBanner = document.querySelector(".ml-3 > span");
